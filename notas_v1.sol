@@ -41,6 +41,7 @@ contract notas {
         require (_direccion == profesor, "No tienes permisos para ejecutar esta funcion");
         _;
 
+
     }
     //Funcion para ver las notas de un alumno
     function VerNotas(string memory _idalumno) public view returns(uint){
